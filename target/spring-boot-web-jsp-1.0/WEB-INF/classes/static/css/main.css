@@ -1,0 +1,96 @@
+body{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	
+}
+h1{
+	color:#0000FF;
+}
+
+h2{
+	color:#FF0000;
+}
+
+.navbar-brand{
+    padding: 15px 0 15px 15px;
+}
+
+.navbar-brand>img{
+	display: inline-block;
+	border-left: solid #999 1px;
+	margin-left: 5%;
+    padding-left: 5%;
+}
+
+.navbar-brand>span{
+	vertical-align: middle;
+	color:black;
+}
+.navbar-nav{
+	margin-top: 1.5%;
+}
+i.people{
+	font-size: 100px;
+    margin: 0 25%;
+}
+
+.border{
+	border: 1px solid #949494;
+	background: black;
+}
+.navbar-nav>li>a{
+	color:black;
+	
+}
+.col-block{
+	margin: 5% 0;
+}    
+
+.col-block:before{
+	content: "=";
+    background-color: #63c55e;
+    margin-right: 1%;
+    color: #63c55e;
+}
+div#forecast_embed {
+    display: none;
+}
+
+#weatherForcast{
+    position: absolute;
+    top: 0;
+}
+.navbar-nav>li>span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;	
+}
+#datePlaceholder{
+	display:inline-block;
+	width:50px;
+	float:left;
+}
+
+#datePlaceholder  > span:nth-child(1){
+	font-size: 15px;
+}
+
+#datePlaceholder > span:not(:first-child){
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+#degree{
+	font-size: 28px;
+    vertical-align: middle;
+}
+#login{
+	margin-top: 0;
+    top: 0;
+    display: inline-block;
+    width: 11%;
+    position:absolute;
+}
+li#weatherForcast> span > a{
+	color:black
+}

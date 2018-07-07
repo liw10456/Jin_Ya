@@ -1,0 +1,8 @@
+com/web/config/SpringBootWebApplication.class
+com/web/config/WelcomeController.class
+api/domain/Customer.class
+api/domain/UserService.class
+api/domain/Person.class
+com/web/config/SecurityConfiguration.class
+com/web/config/SecurityConfiguration$1.class
+api/domain/Activity.class
